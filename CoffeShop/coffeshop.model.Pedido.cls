@@ -5,8 +5,7 @@ Property nombre As %String(MAXLEN = 20);
 
 Property bebida As %String(MAXLEN = 20);
 
-Property hora as %TimeStamp;
-
+Property hora as %TimeStamp[InitialExpression = {$zdt($h,3)}];
 
 Storage Default
 {
