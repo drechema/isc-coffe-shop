@@ -1,0 +1,76 @@
+﻿<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <title>Coffe Shop</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="css/jquery-ui.theme.css" rel="stylesheet">
+  <link href="css/jquery-ui.css" rel="stylesheet">
+  <link href="css/application2.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1><a href="#">Lucy's Coffe Shop</a></h1>
+    <h2>Siempre a su servicio</h2>
+  </div>
+</div>    
+<div id="menu-wrap">
+<div id="menu">
+  <ul>
+    <li class="first"><a href="#" accesskey="1" title="">Pedidos</a></li>
+    <li><a href="#" accesskey="2" title="">Productos</a></li>
+    <li><a href="#" accesskey="3" title="">Servicios</a></li>
+    <li><a href="#" accesskey="4" title="">Sobre Nosotros</a></li>
+    <li><a href="#" accesskey="5" title="">Contacto</a></li>
+  </ul>
+</div>
+</div>
+
+<hr />
+<div id="latest-post-wrap">
+<div id="latest-post" class="post">
+  <p class="byline"><span>1 de Septiembre de 2014, <a href="#">Comentarios del autor</a></span></p>
+  <h1 class="title"><a href="#">Bienvenidos</a></h1>
+  <div class="entry"><img src="images/photo.jpeg" alt="" width="300" height="200" class="left" />
+    <p>Esta es la aplicación <strong>CoffeShop</strong> es una aplicación de ejemplo que utiliza <a href="http://jquery.org">JQuery</a> y hace uso de los servicios <b>REST</b> desarrollados en <b>Caché</b>. Todo lo que veras aqui es <b>HTML5</b> con uso de <b>CSS</b> y <b>JavaScript</b>. Además se puede ejecutar en cualquier navegador.</p>
+    <p>Para añadir un pedido tan solo hay que rellenar los campos nombre y bebida y hacer click en el botón de añadir pedido, eso es todo.</p>
+    <p>Adicionalmente veras la lista de los pedidos realizados y podrás eliminar pedidos existentes.</p>
+  </div>
+</div>
+</div>
+    
+<div id="content">
+
+  <div id="recent-posts">
+    <h2>Pedidos en marcha</h2>
+    <ul id="orders">
+    </ul>
+    <div style="clear: both; height: 40px;">&nbsp;</div>
+  </div>
+      
+  <div id="sidebar">
+    <ul>
+      <li id="search">
+        <h2>Nuevo Pedido</h2>
+        <table>
+          <tr><td>Nombre:</td><td><input type="text" id="name"></td></tr>
+          <tr><td>Bebida:</td><td><input type="text" id="drink"></td></tr>
+        </table>
+        <a href="#" id="add-order">Añadir nuevo pedido</a>
+      </li>
+    </ul>
+    <div style="clear: both; height: 40px;">&nbsp;</div>
+  </div>
+
+</div>
+
+<div id="footer">
+  <p class="legal">&copy;2014 All Rights Reserved. Desarrollado por <a href="http://www.bimaxpro.net/">Bimaxpro</a>.</p>
+</div>
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/mustache.js"></script>
+<script src="js/pedidos.js"></script>
+</body>
+</html>
