@@ -12,7 +12,8 @@ Class coffeshop.servicio.PedidoREST Extends %RegisteredObject
 /// }
 ClassMethod obtenerPedidos() As %Status
 {
-	set responseProxy = ##class(%ZEN.proxyObject).%New()
+    //set ^debug($tr($zdt($h,3)," -:"))="start call obtenerPedidos"
+    set responseProxy = ##class(%ZEN.proxyObject).%New()
     set pedidos = ##class(%ListOfObjects).%New()
     
     &sql(declare c1 cursor for select ID, nombre, bebida into :id, :nombre, :bebida from coffeshop_model.Pedido)

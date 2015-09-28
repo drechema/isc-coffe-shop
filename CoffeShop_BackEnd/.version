@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <com.intersys.eclipse.sync.library:AtelierProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.intersys.eclipse.sync.library="http:///com/intersys/eclipse/sync/library/model/sync.ecore" name="CoffeShop">
   <resourceList name="coffeshop.api.Servicio.cls" localFilePath="file:/Users/david/GitHub/isc-coffe-shop-backend/CoffeShop/coffeshop.api.Servicio.cls">
-    <version serverTimestamp="2015-08-17 17:55:10.698" lastUpdateTimestamp="1440183979664" serverDocName="coffeshop.api.Servicio.cls"/>
+    <version serverTimestamp="2015-09-28 20:17:03.182" lastUpdateTimestamp="1443464237492" serverDocName="coffeshop.api.Servicio.cls"/>
   </resourceList>
   <resourceList name="coffeshop.model.Pedido.cls" localFilePath="file:/Users/david/GitHub/isc-coffe-shop-backend/CoffeShop/coffeshop.model.Pedido.cls">
-    <version serverTimestamp="2015-08-21 00:10:09.099" lastUpdateTimestamp="1440108609217" serverDocName="coffeshop.model.Pedido.cls"/>
+    <version serverTimestamp="2015-09-28 20:17:13.298" lastUpdateTimestamp="1443464233407" serverDocName="coffeshop.model.Pedido.cls"/>
   </resourceList>
   <resourceList name="coffeshop.servicio.PedidoREST.cls" localFilePath="file:/Users/david/GitHub/isc-coffe-shop-backend/CoffeShop/coffeshop.servicio.PedidoREST.cls">
-    <version serverTimestamp="2015-08-17 17:55:35.217" lastUpdateTimestamp="1439826935246" serverDocName="coffeshop.servicio.PedidoREST.cls"/>
+    <version serverTimestamp="2015-09-28 20:17:22.763" lastUpdateTimestamp="1443464242788" serverDocName="coffeshop.servicio.PedidoREST.cls"/>
   </resourceList>
 </com.intersys.eclipse.sync.library:AtelierProject>
