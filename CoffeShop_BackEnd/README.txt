@@ -1,4 +1,44 @@
 README:
+
+Implementation of the REST API of CoffeShop
+
+CONFIGURATION:
+
+1. Creation of the Database
+Configuration >> System Configuration >> Local databases
+- Create New Database
+- Name: COFFESHOP
+- Directory: C:\InterSystems\Cache\mgr\COFFESHOP
+- Create the resource:% DB_COFFESHOP
+
+2. Creation of Namespace
+Configuration >> System Configuration >> Namespaces
+- Create New Namespace
+- Name: COFFESHOP
+- Globals Databases: COFFESHOP
+- Routine Databases: COFFESHOP
+- Create Web application by default: NO
+
+3. Creation of the Web Application for API-REST services
+Security >> Applications >> Web Applications
+- Create new web application
+- Name: /csp/coffeshop/api
+- Namespace: COFFESHOP
+- Send Class: coffeshop.api.Service
+- Save
+- Assign Application Role:% DB_COFFESHOP
+
+4. Creation of the Web Application for the App
+Security >> Applications >> Web Applications
+- Create new web application
+- Name: /csp/coffeshop/app
+- Namespace: COFFESHOP
+- Physical path of CSP files:
+- <Path to choose by the user where the html, css and js files reside>
+- Save
+
+SPANISH ------------------------------------------
+
 Implementación de la API REST de CoffeShop
 
 CONFIGURACIÓN:
